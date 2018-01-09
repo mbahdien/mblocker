@@ -1,0 +1,17 @@
+{
+    "manifest_version": 2,
+    "name": "mBlocker",
+    "description": "Addin Blocker",
+    "version": "1.0",
+    "permissions": [
+	"debugger",
+	"tabs",
+	"declarativeWebRequest",
+	   "*://*/*"
+    ],
+	 "background": {
+	"scripts": ["blocking.js"],
+	 "persistent": true
+  },
+  "web_accessible_resources":["bukalapakapplication.js"]
+}
